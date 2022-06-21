@@ -1,0 +1,194 @@
+*{
+    border:0;
+    margin:0;
+    padding:0;
+}
+body{
+    background: #fff;
+    
+}
+#contenedor{
+    height: 1050px;
+    width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+header,#usuario, #noticias, #logos{
+   background: #0E64AF;
+   width: 800px;
+   height: 100px;
+  
+   
+}
+
+#usuario {
+    width: 700px;
+    background: #fff;
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: ´calibri´;
+    color: white;
+    
+}
+
+#usuario{
+    height: 120px;
+    background: #fff;    
+}
+h4 {
+    
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: ´calibri´,sans-serif;
+   text-align: center;
+}
+header{
+    width: 750px;
+    height: 100px;
+    padding: 8px 15px;
+    box-shadow: 7px 13px 37px #000; 
+   
+    
+}
+header h1{
+   background: #0E64AF;
+   width: 240px;
+   height: 100px;
+   display: inline-block;
+   vertical-align: middle;
+   float: left;
+    
+}
+header #menu{
+  
+   width: 440px;
+   height: 100px; 
+   display: inline-block;
+   vertical-align: middle;
+   float: right;
+}
+
+#noticias{
+    height: 225px;
+    width: 760px;
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    text-align: center;
+    display: inline-block           
+}
+   
+#noticia1{
+    background: #999;
+    width: 250px;
+    height: 215px; 
+    display: inline-block;
+    vertical-align: top;  
+}
+#noticia2{
+    background: #3C1EF2;
+    width: 250px;
+    height: 215px;
+    display: inline-block;
+    vertical-align: top;    
+}
+#imagencentro{
+   height: 215px;
+    width: 250px; 
+}
+#imagencentroizquierda{
+   height: 215px;
+    width: 250px; 
+}
+#imagencentroderecha{
+   height: 215px;
+    width: 250px; 
+}
+
+#noticia3{
+    background: #F2A11E;
+    width: 250px;
+    height: 215px; 
+    display: inline-block;
+    vertical-align: top;    
+}
+.espacio{
+    background: #fff;
+    width: 760px;
+    height: 10px;
+    
+}
+#logos{
+    height: 300px;
+    background: #ffffff;  
+   
+}
+
+footer{
+   background: #0E64AF;
+   width: 780px;
+   height: 82px; 
+   padding-top: 25px;
+   
+ }
+ 
+ footer p{
+    font-family: arial;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 7px 13px 37px #000;   
+}
+
+img{
+   height: 100px;
+    width: 240px; 
+}
+
+nav li a { 
+    display: inline-block;
+    padding: 6px;
+    text-align: right;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: arial;
+    text-align: right;
+   
+}
+
+nav li { 
+    display: inline-block;
+    padding: 6px;
+    text-align: right;
+    text-decoration: none;
+    color: #ffffff
+}
+
+
+#menu{
+    margin: auto;
+    width: 500px;
+    font-family: arial, helveltica, sans-serif;
+    
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nave li a{
+    background-color: #3C1EF2;
+    color: #fff;
+    text-decoration: note;
+    padding: 10px, 15px;
+    display: block;    
+}
+.nave > li{
+    float: left;
+    
+}

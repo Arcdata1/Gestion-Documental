@@ -1,0 +1,44 @@
+nav li ul {
+	
+	display:none;
+}
+	
+		
+nav li:hover ul   {
+	
+	display:block;
+	list-style: none;
+	margin-left:auto;
+	transition: margin-left 1.5s;
+	padding: 1px;
+	
+	
+}
+
+nav li a:hover   {
+	
+	margin-left:10px;
+	
+	
+}
+
+.cont-tabla{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    overflow-y: scroll;
+    border: 1px solid #000;
+}
+
+.t-cliente{
+    width: 99%;
+    border-collapse: collapse;
+}
+.t-cliente th{
+    width: 25%;
+    height: 20px;
+    padding: 0%;
+    margin: 0%;
+    border-bottom: 1px solid #000;
+}

@@ -1,0 +1,68 @@
+.cont-encabezado{
+    width: 80%;
+    height: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.cont-escritorio{
+    width: 99%;
+    height: 450px;
+    display: flex;
+    margin: 20px auto;
+}
+.formulario{
+    width: 20%;
+    height: 100%;
+    display: block;
+    margin-left: 50px;
+    border: 1px solid #000;
+}
+.formulario label{
+    margin-left: 10px;
+    width: 95px;
+}
+.formulario input{
+    width: 90%;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.formulario button{
+    width: 40%;
+    height: 25px;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.cont-tabla{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    overflow-y: scroll;
+    border: 1px solid #000;
+}
+.cont-titulo{
+    width: 99.5%;
+    height: 10%;
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+.cont-titulo button{
+    width: 25%;
+    height: 100%;
+    border: none;
+    font-size: larger;
+}
+.t-cliente{
+    width: 99%;
+    border-collapse: collapse;
+}
+.t-cliente th{
+    width: 25%;
+    height: 20px;
+    padding: 0%;
+    margin: 0%;
+    border-bottom: 1px solid #000;
+}
